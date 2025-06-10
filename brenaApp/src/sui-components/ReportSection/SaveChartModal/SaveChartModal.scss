@@ -1,0 +1,51 @@
+.save-chart-modal {
+    z-index: 100000000000000000000000000000001 !important;
+    .MuiFormLabel-root {
+        color: #666;
+        font-size: 14px;
+    }
+    .chart-brena-cls {
+        width: 26px;
+        vertical-align: bottom;
+        margin-right: 12px;
+        margin-left: 5px;
+    }
+    .chart-textfield-cls {
+        width: 15px;
+        position: absolute;
+        margin-top: 8px;
+        opacity: 0.6;
+        margin-left: 2px;
+    }
+    .MuiInputBase-input {
+        padding-left: 26px;
+        font-size: 15px;
+        color: #000;
+    }
+    .save-chart-text {
+        font-size: 15px;
+        font-weight: bold;
+        color: #000;
+    }
+    .MuiPaper-root {
+        width: 400px;
+    }
+    &_cancel-btn {
+        background-color: #666666 !important;
+        border-radius: 2px !important;
+        margin-right: 10px !important;
+    }
+    &_save-btn {
+        //TODO: Add classes here
+        background: #e86e25 !important;
+        border-radius: 2px !important;
+        color: #fff !important;
+        &.Mui-disabled {
+            opacity: 0.5;
+        }
+    }
+    .MuiDialogActions-root,
+    .MuiDialogContent-root {
+        padding: 18px 22px !important;
+    }
+}

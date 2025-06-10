@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Path_48016" x="-2" y="5" width="52" height="37.221" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_03d">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="_03d" data-name="03d" clip-path="url(#clip-_03d)">
+    <g id="Group_80250" data-name="Group 80250" transform="translate(-2.749 3)">
+      <g transform="matrix(1, 0, 0, 1, 2.75, -3)" filter="url(#Path_48016)">
+        <path id="Path_48016-2" data-name="Path 48016" d="M32.283,25.152a7.516,7.516,0,0,0,6.676-3.617,7.271,7.271,0,0,0,0-7.5,7.516,7.516,0,0,0-6.676-3.617h-.077A11.827,11.827,0,0,0,22.186.077,11.97,11.97,0,0,0,9.439,6.916H9.264a9.12,9.12,0,1,0,0,18.237" transform="translate(4 11.06)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

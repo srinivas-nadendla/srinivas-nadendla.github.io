@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Path_48034" x="-9" y="4" width="58.93" height="44.214" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Path_48035" data-name="Path 48035" d="M72.647,63.558a9.87,9.87,0,0,0-7.956,5.8h-.145a7.663,7.663,0,0,0,0,15.326H83.587a6.194,6.194,0,1,0,.383-12.383q-.191-.006-.383,0h-.064a9.862,9.862,0,0,0-10.876-8.748" transform="translate(-56.883 -63.5)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.425" y1="0.995" x2="-0.418" y2="0.995" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c4e3f7"/>
+      <stop offset="1" stop-color="#d9eaf8"/>
+    </linearGradient>
+    <clipPath id="clip-_4d">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="_4d" data-name="4d" clip-path="url(#clip-_4d)">
+    <g id="Group_80240" data-name="Group 80240" transform="translate(-5 -6.349)">
+      <g id="Group_80238" data-name="Group 80238" transform="translate(5 16.349)">
+        <g id="Group_80237" data-name="Group 80237" transform="translate(0 0)">
+          <g id="Group_80234" data-name="Group 80234">
+            <g id="Group_80239" data-name="Group 80239">
+              <g transform="matrix(1, 0, 0, 1, 0, -10)" filter="url(#Path_48034)">
+                <path id="Path_48034-2" data-name="Path 48034" d="M33.031,62.816A7.662,7.662,0,0,0,33.505,47.5q-.237-.007-.474,0h-.079A12.208,12.208,0,0,0,9.658,43.858h-.18a9.479,9.479,0,1,0,0,18.958" transform="translate(0 -26.61)" fill="#fff"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_80236" data-name="Group 80236" transform="translate(14.111 6.672)">
+            <g id="Group_80235" data-name="Group 80235" clip-path="url(#clip-path)">
+              <rect id="Rectangle_148464" data-name="Rectangle 148464" width="33.193" height="21.295" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

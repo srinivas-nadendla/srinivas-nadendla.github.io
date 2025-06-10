@@ -1,0 +1,23 @@
+.chat-widget-toolbar {
+    display: flex;
+    padding-left: 10px;
+    button {
+        color: #059cdf;
+        font-size: 14px;
+        text-transform: capitalize;
+        background-color: transparent !important;
+        font-family: 'Roboto-Regular';
+        img {
+            margin-right: 6px;
+            width: 16px;
+            margin-top: -2px;
+        }
+    }
+    .Mui-disabled {
+        color: #999 !important;
+        img {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+    }
+}

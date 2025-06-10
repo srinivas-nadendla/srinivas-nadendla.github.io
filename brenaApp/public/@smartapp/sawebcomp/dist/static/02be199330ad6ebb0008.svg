@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="144" viewBox="0 0 200 144">
+  <defs>
+    <clipPath id="clip-Completed-4-dark">
+      <rect width="200" height="144"/>
+    </clipPath>
+  </defs>
+  <g id="Completed-4-dark" clip-path="url(#clip-Completed-4-dark)">
+    <rect width="200" height="144" fill="rgba(255,255,255,0)"/>
+    <g id="Rectangle_148426" data-name="Rectangle 148426" transform="translate(139.416 22) rotate(45)" stroke="#bbb" stroke-width="1" opacity="0.3">
+      <rect width="14" height="126.453" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="125.453" rx="6.5" fill="none"/>
+    </g>
+  </g>
+</svg>

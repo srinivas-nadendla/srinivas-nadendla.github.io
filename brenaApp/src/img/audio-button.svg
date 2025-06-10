@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="51" viewBox="0 0 52 51">
+  <g id="audio-button" transform="translate(0.033 -0.359)">
+    <ellipse id="Ellipse_27" data-name="Ellipse 27" cx="26" cy="25.5" rx="26" ry="25.5" transform="translate(-0.033 0.359)" fill="#e86e25"/>
+    <g id="mic" transform="translate(20.622 17.185)">
+      <path id="Path_17" data-name="Path 17" d="M11.343,1A2.343,2.343,0,0,0,9,3.343V9.592a2.343,2.343,0,1,0,4.687,0V3.343A2.343,2.343,0,0,0,11.343,1Z" transform="translate(-5.875 -1)" fill="none" stroke="#eef3ad" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_18" data-name="Path 18" d="M15.936,10v1.562A5.468,5.468,0,1,1,5,11.562V10" transform="translate(-5 -2.97)" fill="none" stroke="#eef3ad" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_13" data-name="Line 13" y2="3" transform="translate(5.346 14.174)" fill="none" stroke="#eef3ad" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_14" data-name="Line 14" x2="7" transform="translate(2.346 17.174)" fill="none" stroke="#eef3ad" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

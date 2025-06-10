@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.853" x2="0.853" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdb728"/>
+      <stop offset="1" stop-color="#ffcd23"/>
+    </linearGradient>
+    <filter id="Ellipse_16763" x="4.5" y="7.5" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-_01d">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="_01d" data-name="01d" clip-path="url(#clip-_01d)">
+    <g id="Icons" transform="translate(9 9)">
+      <g id="Dust">
+        <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Ellipse_16763)">
+          <circle id="Ellipse_16763-2" data-name="Ellipse 16763" cx="15" cy="15" r="15" transform="translate(9 9)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

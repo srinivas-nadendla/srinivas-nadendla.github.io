@@ -1,0 +1,30 @@
+.brena-pin-unpin-icon {
+    transform: rotate(45deg);
+}
+
+.small {
+    .brena-pin-unpin-btn {
+        width: 40px !important;
+        padding: 8px 2px !important;
+        background: transparent;
+        border-width: 0;
+        box-sizing: border-box;
+    }
+}
+
+svg.brena-pin-unpin-icon {
+    fill: gray;
+}
+
+.common-widget-dlg.pinned {
+    svg.brena-pin-unpin-icon {
+        fill: #059cdf;
+    }
+}
+
+.chat-widget-container_title-img-wrapper {
+    .brena-pin-unpin-btn {
+        position: absolute;
+        right: 54px;
+    }
+}

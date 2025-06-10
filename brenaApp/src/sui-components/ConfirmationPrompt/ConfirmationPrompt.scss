@@ -1,0 +1,72 @@
+.brena-confirm-prompt {
+    border: 1px solid #FD9000;
+    border-radius: 2px;
+    border-left-width: 10px;
+    padding: 20px 25px 15px 10px;
+    width: auto;
+    position: absolute;
+    bottom: 10px;
+    z-index: 1;
+    background-color: #FFF2CB;
+    display: flex;
+    color: #333;
+    &_left {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #FD9000;
+        .brena-icon-cls {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+    &_right {
+        margin-left: 10px;
+    }
+    &_right-title {
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #333;
+    }
+    &_right-desc {
+        font-weight: 500;
+        font-size: 14px;
+        color: #666;
+        line-height: 1.5;
+    }
+    &_right-buttons {
+        display: flex;
+        justify-content: end;
+        margin-top: 16px;
+        &_remove-btn,
+        &_add-btn {
+            background-color: transparent;
+            border-radius: 4px;
+            padding: 6px 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        &_remove-btn {
+            margin-right: 16px;
+            color: #666;
+            border: 1px solid #666;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+        }
+        &_add-btn {
+            color: #059cdf;
+            border: 1px solid #059cdf;
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .15);
+        }
+    }
+    &_right-close {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 28px;
+        transform: rotate(45deg);
+        cursor: pointer;
+        text-shadow: none;
+    }
+}

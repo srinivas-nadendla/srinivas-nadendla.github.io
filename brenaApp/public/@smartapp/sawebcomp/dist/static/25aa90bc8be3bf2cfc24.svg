@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Raining_10_">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Raining_10_" data-name="Raining 10%" clip-path="url(#clip-Raining_10_)">
+    <path id="Icon_feather-droplet" data-name="Icon feather-droplet" d="M20.444,4.035l10.22,10.158a14.3,14.3,0,0,1,0,20.306,14.509,14.509,0,0,1-20.432,0,14.3,14.3,0,0,1,0-20.306Z" transform="translate(3.493 2.465)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

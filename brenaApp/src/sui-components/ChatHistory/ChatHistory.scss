@@ -1,0 +1,54 @@
+.chat-history {
+    &_group-name {
+        text-align: center;
+        margin: 25px 0 20px 0;
+        border-bottom: 1px solid #f5f5f5;
+        line-height: 0.1em;
+        span {
+            background: #fff;
+            padding: 0 6px;
+            font-weight: bold;
+            font-size: 12px;
+            color: #333;
+        }
+    }
+    &_group-item {
+        border: 1px solid #999;
+        border-radius: 8px;
+        padding: 5px 10px;
+        margin: 20px 0;
+        color: #333;
+        font-size: 14px;
+        cursor: pointer;
+        &:focus,
+        &:hover {
+            background-color: #999;
+            color: white;
+            border: 1px solid white;
+        }
+    }
+    &_search {
+        .MuiInputBase-adornedEnd {
+            height: 36px;
+            border-radius: 6px;
+            padding-right: 4px;
+            fieldset {
+                border: 1px solid #999 !important;
+            }
+            .chat-history_search-btn {
+                border: 1px solid transparent;
+                color: #666;
+                margin: 0px 0px !important;
+                padding: 2px 3px;
+                border-radius: 8px;
+                background-color: transparent;
+            }
+        }
+    }
+    &_search-text-box {
+        width: 100%;
+    }
+    &_highlight {
+        background-color: #fdfd00;
+    }
+}

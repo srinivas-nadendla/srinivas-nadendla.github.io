@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="144" viewBox="0 0 200 144">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_145724" data-name="Rectangle 145724" width="200" height="144"/>
+    </clipPath>
+  </defs>
+  <g id="In_Progress-1-dark" data-name="In Progress-1-dark" clip-path="url(#clip-path)">
+    <rect width="200" height="144" fill="rgba(255,255,255,0)"/>
+    <g id="Lock-Dark" clip-path="url(#clip-path)">
+      <path id="padlock-black-outline" d="M100.167,33.632h-2.66V23.893a23.952,23.952,0,1,0-47.9,0V33.63H46.938a7.982,7.982,0,0,0-7.985,7.964V73.443a7.982,7.982,0,0,0,7.985,7.964h53.219a7.983,7.983,0,0,0,7.989-7.964V41.594A7.983,7.983,0,0,0,100.167,33.632ZM76.215,59.687v8.452a2.665,2.665,0,1,1-5.324,0V59.687a7.985,7.985,0,1,1,5.324,0ZM86.859,33.632H60.249V23.893a13.305,13.305,0,1,1,26.611,0V33.63Z" transform="translate(26.547 31.559)" stroke="#bbb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

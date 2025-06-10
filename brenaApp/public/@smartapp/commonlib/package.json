@@ -1,0 +1,35 @@
+{
+  "_from": "@smartapp/commonlib@^1.0.9",
+  "_id": "@smartapp/commonlib@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-6E349119BLTZDZNdz5Qj4mhAXILtH36EMtNXgBX7IQEyRk+P3FyaDrRE2v6SszzTHLa1KTc+Iq2KYFZjvEGQaw==",
+  "_location": "/@smartapp/commonlib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@smartapp/commonlib@^1.0.9",
+    "name": "@smartapp/commonlib",
+    "escapedName": "@smartapp%2fcommonlib",
+    "scope": "@smartapp",
+    "rawSpec": "^1.0.9",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.9"
+  },
+  "_requiredBy": [
+    "/@smartapp/sawebcomp"
+  ],
+  "_resolved": "https://registry.npmjs.org/@smartapp/commonlib/-/commonlib-1.0.10.tgz",
+  "_shasum": "93b6ed8073f7b7d6ab473ebf900cbb2ee8fb2a99",
+  "_spec": "@smartapp/commonlib@^1.0.9",
+  "_where": "E:\\Projects\\smartapp-react-ui\\BrenaApp\\brena\\node_modules\\@smartapp\\sawebcomp",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Shared common js, used by EntrepriseDesktop, Gantter, etc...",
+  "main": "index.js",
+  "name": "@smartapp/commonlib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.10"
+}

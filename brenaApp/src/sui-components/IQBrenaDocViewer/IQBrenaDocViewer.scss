@@ -1,0 +1,14 @@
+.iq-brena-doc-viewer {
+    height: 100%;
+    .canvas-wrapper-cls {
+        height: 90%;
+        border: 1px solid #ccc;
+        position: relative;
+    }    
+    .common-zoom-control {
+        left: auto !important;
+        right: 0 !important;
+        top: auto !important;
+        bottom: -75px !important;
+    }
+}

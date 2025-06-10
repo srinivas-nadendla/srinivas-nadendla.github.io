@@ -1,0 +1,14 @@
+.snack-bar-cont {
+    .MuiPaper-root {
+        border-radius: 50px;
+        display: flex;
+        justify-content: left !important;
+        background-color: rgb(50, 50, 50) !important;
+        svg.MuiSvgIcon-root {
+            margin-top: 4px;
+        }
+    }
+}
+.brena-snack-bar-cont {
+    z-index: 99999 !important;
+}

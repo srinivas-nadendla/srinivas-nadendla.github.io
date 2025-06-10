@@ -1,0 +1,104 @@
+.chat-widget-footer {
+    padding: 4px 10px 10px 10px;
+    bottom: 0;
+    background-color: #fff;
+    &.brena-tablet {
+        position: absolute;
+        width: -webkit-fill-available;
+        .chat-widget-footer-text-voice-wrapper.show-full-width {
+            bottom: 12px;
+            position: fixed;
+            left: -380px;
+            background-color: #fff;
+            gap: 0.8em; //left: -150%;
+            .MuiFormControl-root {
+                width: 96.4vw;
+            }
+            .chat-widget-footer-text-box {
+                width: calc(100vw - 80px);
+            }
+        }
+    }
+    &.brena-mobile {
+        position: absolute;
+        width: -webkit-fill-available;
+        .chat-widget-footer-text-box {
+            width: 100%;
+            margin-right: 18px;
+        }
+    }
+    &-anything-else-block {
+        background-color: #faeae0;
+        color: #ED7532;
+        border-radius: 6px;
+        margin: 0px auto 20px auto;
+        padding: 4px 0px 4px 0px;
+        font-size: 14px;
+        text-align: center;
+        width: 320px;
+        .Chat-question-cls {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+    }
+    &-text-box {
+        .MuiInputBase-root {
+            border-radius: 30px;
+            min-width: 264px;
+            .send-btn-cls {
+                background-color: grey;
+                color: #fff;
+                width: 30px;
+                height: 30px;
+                margin-right: -4px;
+                svg {
+                    font-size: 1.0rem;
+                }
+            }
+            .MuiInputBase-input {
+                font-size: 14px;
+            }
+            fieldset {
+                border-color: #0000003b !important;
+            }
+        }
+    }
+    &-text-voice-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+    }
+    &-voice-btn {
+        &.active {
+            //TODO: Add active mic css here
+        }
+        .voicebtn-cls {
+            width: 40px;
+            cursor: pointer;
+        }
+        .voicebtn-listen-cls {
+            width: 55px;
+            margin-right: -6px;
+        }
+    }
+    &_focused {
+        .chat-widget-footer-text-box {
+            .MuiInputBase-root {
+               // height: 90px;
+                .send-btn-cls {
+                    background-color: #059cdf;
+                }
+                fieldset {
+                    border-color: #059cdf !important;
+                    border-width: 1px;
+                }
+            }
+        }
+        .chat-widget-footer-anything-else-block {
+            display: none;
+        }
+    }
+}

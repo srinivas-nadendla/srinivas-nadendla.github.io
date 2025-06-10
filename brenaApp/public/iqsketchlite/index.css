@@ -1,0 +1,341 @@
+.light_fabric_container {
+    height: 100%;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.canvas-wrapper-cls {
+    display: flex;
+    flex-flow: column;
+    /*border: 1px solid goldenrod;*/
+    margin: auto;
+}
+
+/* DONT NOT USE #canvasWrapper for adding CSS */
+
+#canvasWrapper {
+    height: 90vh;
+    width: 90vw;
+}
+
+.canvas-icon-bar {
+    width: auto;
+    background-color: #fff;
+    height: 40px;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    z-index: 5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.canvas-icon-bar button {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    color: #666;
+    font-size: 1.25rem;
+    border: none;
+    margin: 0 5px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.canvas-icon-bar button img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.canvas-icon-bar button:disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.canvas-icon-bar button:hover {
+    background-color: #ccc;
+}
+
+.canvas-icon-bar .active {
+    background-color: #04AA6D;
+}
+
+.markup-tooltip {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff !important;
+    box-shadow: 1px 2px 3px #000;
+    padding: 6px;
+    z-index: 9999;
+    animation: show_div 0.5s;
+}
+
+@keyframes show_div {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #000;
+    position: absolute;
+    top: -8px;
+    left: 0px;
+}
+
+.common-zoom-control {
+    position: absolute;
+    width: 110px;
+    height: 130px;
+    overflow: hidden;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+    /*left: 92% !important;*/
+}
+
+.common-zoom-control table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.common-zoom-control table tr td {
+    width: 30px;
+}
+
+.common-zoom-control table tr td button.pressed-cls {
+    /* background-color: mediumseagreen; */
+}
+
+.common-zoom-control table tr td button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 0px;
+    transition: all 0.3s ease;
+    color: #666;
+    font-size: 1.25rem;
+    margin: -1px -1px;
+    width: 34px;
+    height: 34px;
+    background-color: #333;
+    border: 1px solid #333;
+    /* box-shadow: 0px 4px 4px 0px #dadada; */
+}
+
+.common-zoom-control table tr td .zoom-in-cls {
+    margin-left: -1px;
+    border-right: 0px;
+    border-radius: 12px 0px 0 12px;
+}
+
+.common-zoom-control table tr td .zoom-out-cls {
+    margin-left: -1px;
+    border-left: 0px;
+    border-radius: 0px 12px 12px 0;
+}
+
+.common-zoom-control table tr td .zoom-to-window-cls {
+    border-radius: 12px 12px 0 0;
+}
+
+.common-zoom-control table tr td .zoom-extent-cls {
+    border-radius: 0px 0px 12px 12px;
+}
+
+.common-zoom-control table tr td .pan-cls {
+    border: 1px solid #646464;
+    border-radius: 0px;
+}
+
+.common-zoom-control table tr td .pressed-cls {
+    background-color: #059cdf !important;
+    border-color: #059cdf !important;
+}
+
+.common-zoom-control table tr td .close-cls {
+    border: 1px solid #999;
+    box-shadow: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.common-zoom-control table tr td button.zoom-to-window-cls img {
+    pointer-events: none;
+}
+
+.common-zoom-control table tr td button {
+    cursor: pointer;
+}
+
+.common-zoom-control table tr td button img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.common-zoom-control table tr td .close-cls img {
+    width: 14px;
+    height: 18px;
+}
+
+.common-zoom-control table tr td button i,
+.common-zoom-control table tr td button i:before {
+    font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+/* .common-navigation-control {
+    position: absolute;
+    overflow: hidden;
+    bottom: 48px;
+    width: auto;
+    z-index: 2;
+    left: 65% !important;
+    display: flex;
+} */
+
+.common-navigation-control .prev-cls.disabled-cls,
+.common-navigation-control .next-cls.disabled-cls {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.common-navigation-control .prev-cls img,
+.common-navigation-control .next-cls img {
+    cursor: pointer;
+}
+
+.common-navigation-control {
+    position: absolute;
+    top: 38%;
+    z-index: 999;
+}
+
+.common-navigation-control button img {
+    height: 12px;
+    width: 12px;
+    z-index: 999;
+}
+
+.right-navigation {
+    right: 0;
+}
+
+.navigation-body-cls {
+    transition: all 0.3s ease;
+    color: white;
+    /* width: 70px; */
+    position: absolute;
+    left: 50%;
+    background: #4a4a4a;
+    border-radius: 12px;
+    border: 1px solid #4a4a4a;
+    padding: 3px 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.common-navigation-control .prev-cls,
+.common-navigation-control .next-cls {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 0px;
+    transition: all 0.3s ease;
+    color: #e7dbdb;
+    font-size: 1.25rem;
+    margin: -1px -1px;
+    width: 34px;
+    height: 34px;
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.common-navigation-control .prev-cls img,
+.common-navigation-control .next-cls img {
+    filter: brightness(0) invert(1);
+}
+
+.common-navigation-control .next-cls {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.common-navigation-control .prev-cls {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.common-navigation-control .prev-cls img,
+.common-navigation-control .next-cls img {
+    width: 16px;
+    height: 24px;
+}
+
+.common-navigation-control .navigation-body-cls {
+    background: #4a4a4a;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid #4a4a4a;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+.validation-buttons {
+    position: absolute;
+    z-index: 999999;
+    display: inline-flex;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    padding: 4px 4px;
+    box-shadow: 0 1px 4px 1px #dadada;
+    border-radius: 2px;
+    gap: 2px;
+}
+
+.validation-buttons .ok-cls,
+.validation-buttons .cancel-cls {
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0px 3px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.validation-buttons .ok-cls img,
+.validation-buttons .cancel-cls img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.validation-buttons .cancel-cls img {
+    filter: grayscale(10%);
+    opacity: 0.7;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="144" viewBox="0 0 200 144">
+  <defs>
+    <clipPath id="clip-Verified-3-white">
+      <rect width="200" height="144"/>
+    </clipPath>
+  </defs>
+  <g id="Verified-3-white" clip-path="url(#clip-Verified-3-white)">
+    <path id="Icon_material-close" data-name="Icon material-close" d="M98.5,16.665,89.338,7.5,53,43.836,16.665,7.5,7.5,16.665,43.836,53,7.5,89.338,16.665,98.5,53,62.167,89.338,98.5,98.5,89.338,62.167,53Z" transform="translate(47.335 19.335)" fill="#fff" stroke="#999" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

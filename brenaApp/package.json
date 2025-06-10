@@ -1,0 +1,70 @@
+{
+  "name": "brena",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "@mui/x-date-pickers": "^5.0.20",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "^16.18.31",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "dagre": "0.8.5",
+    "dayjs": "^1.11.13",
+    "file-loader": "^6.2.0",
+    "html2canvas": "^1.4.1",
+    "marked": "^14.1.2",
+    "mespeak": "^2.0.2",
+    "path": "^0.12.7",
+    "plotly.js-basic-dist-min": "^2.24.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "4.4.5",
+    "react-error-boundary": "4.0.9",
+    "react-plotly.js": "^2.6.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "5.0.1",
+    "reactflow": "11.11.3",
+    "sass": "^1.62.1",
+    "tinycolor2": "^1.6.0",
+    "typescript": "^4.9.5",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/dagre": "^0.7.52",
+    "@types/plotly.js-basic-dist-min": "^2.12.1",
+    "@types/react-plotly.js": "^2.6.0",
+    "@types/tinycolor2": "^1.4.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "webpack --config webpack.config.js && node prebuild.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

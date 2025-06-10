@@ -1,0 +1,38 @@
+.project-area-tooltip {
+    padding: 8px;
+    &_row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &_cell {
+        flex: 1;
+        color: #9b9b9b;
+        font-size: 12px;
+        display: grid;
+        text-align: center;
+        &-val {
+            color: white;
+        }
+    }
+    &_cell-seperator {
+        padding: 0 10px;
+        color: #9b9b9b;
+    }
+    &_address {
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        svg {
+            fill: #9b9b9b;
+            margin-right: 5px;
+        }
+    }
+}
+
+#project-area-tooltip {
+    z-index: 20000 !important;
+    .MuiTooltip-tooltip {
+        background-color: #333333 !important;
+    }
+}

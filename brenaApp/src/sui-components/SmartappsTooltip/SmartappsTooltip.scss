@@ -1,0 +1,100 @@
+.smartapp-add-tooltip-content {
+    &_header {
+        display: flex;
+        align-items: center;
+        min-height: 42px;
+        font-size: 14px;
+        color: #666;
+    }
+    &_header-logo {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+    &_body {
+        overflow-y: auto;
+        height: 260px;
+        margin-top: 5px;
+    }
+    &_body-item {
+        display: flex;
+        align-items: center;
+        margin: 6px 0px;
+        padding: 4px 0;
+        cursor: pointer;
+        position: relative;
+        font-size: 14px;
+        color: #333;
+        &.selected {
+            background-color: #FFF9CC;
+            svg.smartapp-add-tooltip-content_body-item-add-icon {
+                display: block;
+                color: #059cdf;
+            }
+        }
+        svg.smartapp-add-tooltip-content_body-item-add-icon {
+            display: none;
+            position: absolute;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    &_body-item-img {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        margin-right: 8px;
+        border: 1px solid #c2c2c2;
+        object-fit: contain;
+    }
+    &_body-item-name {
+        max-width: 220px;
+    }
+}
+.brena-smartapp-tooltip-cls {
+    z-index: 9999999999 !important;
+    left: 80px !important;
+    .MuiTooltip-tooltip {
+        background-color: #fff;
+        color: #000;
+        border-radius: 8px;
+        box-shadow: 0 1px 8px #999;
+        width: 310px;
+        border: 1px solid #999;
+        padding: 4px 10px;
+        margin-left: 4px;
+    }
+    .MuiTooltip-arrow {
+        color: white !important;
+        left: -80px !important;
+
+    }
+    .MuiTextField-root {
+        width: 100%;
+    }
+    .MuiInputBase-adornedEnd {
+        height: 36px;
+        border-radius: 6px;
+        padding-right: 4px;
+        fieldset {
+            border: 1px solid #999 !important;
+        }
+        .smartapp-add-tooltip-content_search-btn {
+            border: 1px solid transparent;
+            color: #666;
+            margin: 0px 0px !important;
+            padding: 2px 3px;
+            border-radius: 8px;
+            background-color: transparent;
+        }
+    }
+}
+
+.smartapp-add-tooltip {
+    position: relative;
+    overflow: visible;
+    
+}

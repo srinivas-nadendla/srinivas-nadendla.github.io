@@ -1,0 +1,35 @@
+.welcome-content {
+    &_img-wrapper {
+        text-align: left;
+        margin-top: -46px;
+    }
+    &_img-welcome {
+        text-align: center;
+        margin: 5px 0px 20px 0px;
+        .welcome_img {
+            width: 180px;
+        }
+    }
+    &_img {
+        width: 200px;
+    }
+    &_btn {
+        text-transform: none !important;
+        font-size: 12px !important;
+        margin: 5px 0 !important;
+    }
+    .welcome-content_deep-search-item {
+        border-color: #ed7532 !important;
+        color: #ed7532 !important;
+        display: flex !important;
+        padding-right: 0 !important;
+        &:hover {
+            background-color: #ed7532;
+            color: white !important;
+        }
+    }
+    .welcome-content_deep-search-img {
+        width: 40px;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-Raining_81_">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="Raining_81_" data-name="Raining 81%" clip-path="url(#clip-Raining_81_)">
+    <g id="Group_143296" data-name="Group 143296" transform="translate(-98.014 -285.965)">
+      <path id="Icon_feather-droplet" data-name="Icon feather-droplet" d="M18.175,16.082c5.9-.243,12.3-.6,12.3-.6,1.6,6.049,1.835,7.215-3.059,12.079a12.584,12.584,0,0,1-17.721,0C4.805,22.7,5.8,21.938,6.535,15.874A111.2,111.2,0,0,0,18.175,16.082Z" transform="translate(103.094 293.825)" fill="#12bafc"/>
+      <path id="Icon_feather-droplet-2" data-name="Icon feather-droplet" d="M18.529,4.035l8.864,8.81a12.4,12.4,0,0,1,0,17.612,12.584,12.584,0,0,1-17.721,0,12.4,12.4,0,0,1,0-17.612Z" transform="translate(103.116 290.93)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

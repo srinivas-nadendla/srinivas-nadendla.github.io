@@ -1,0 +1,176 @@
+.budget-suggestions-section {
+    position: relative;
+    width: 100%;
+    &_header {
+        padding: 10px;
+        box-shadow: 0px 0px 3px 0px rgb(229, 229, 229);
+        background-color: white;
+    }
+    &.brena-tablet, &.brena-mobile {
+        .budget-suggestions-section_header-row, .regenerate-btn-row {
+            flex-direction: column;
+        }
+    }
+    &_header-row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 4px 0;
+        &_cell {
+            &.second-cell.brena-suggested-cls,
+            &.third-cell.brena-suggested-cls {
+                color: #E95A15;
+            }
+            &.first-cell {
+                flex: 1;
+                font-weight: 600;
+                color: #333;
+                .sap-icon {
+                    width: 74px;
+                    padding-left: 2px;
+                }
+            }
+            &.second-cell {
+                flex: 2;
+                color: gray;
+                img {
+                    width: 16px;
+                    height: 16px;
+                    vertical-align: sub;
+                    margin-right: 8px;
+                    object-fit: contain;
+                    padding-bottom: 1px;
+                }
+                .past-performance {
+                    width: 13px;
+                    height: 13px;
+                    padding-bottom: 2px;
+                    margin-left: 2px;
+                }
+                .cat-cls {
+                    img {
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+            &.third-cell {
+                flex: 3;
+                color: gray;
+                img {
+                    width: 18px;
+                    height: 18px;
+                    vertical-align: sub;
+                    margin-right: 8px;
+                    object-fit: contain;
+                    padding-bottom: 1px;
+                }
+                .approax {
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 2px;
+                }
+                .industry {
+                    width: 15px;
+                    height: 15px;
+                    margin-left: 2px;
+                    margin-right: 10px;
+                }
+                .location {
+                    margin-left: 4px;
+                    cursor: pointer;
+                    width: 20px;
+                    height: 20px;
+                    margin-bottom: 1px;
+                }
+            }
+            &.second-cell,
+            &.third-cell {
+                &.grey {
+                    color: #666;
+                }
+                .MuiSlider-markLabelActive.is-active {
+                    color: #E95A15;
+                }
+                .MuiSlider-mark {
+                    width: 0;
+                }
+                .MuiSlider-rail {
+                    background-color: #989898;
+                }
+                .MuiSlider-track {
+                    background-color: #E95A15;
+                    border-color: #E95A15;
+                }
+                .MuiSlider-thumb {
+                    background-color: #E95A15;
+                }
+            }
+            &.project-area {
+                display: flex;
+                align-items: center;
+                svg {
+                    margin-left: 5px;
+                }
+            }
+        }
+        .brena-bold-cls {
+            font-weight: 600;
+        }
+    }
+    &_val {
+        padding-left: 8px;
+        color: #111;
+        font-weight: 400;
+    }
+    .regenerate-btn-row {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .regenerate-btn-cls {
+            margin-bottom: 25px;
+            color: #ED7532;
+            border-radius: 20px;
+            border-color: #ED7532;
+            padding: 3px 12px;
+            .MuiButton-startIcon {
+                margin-right: 0px;
+                .regenarate {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+    &_tools {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: -12px;
+        position: absolute;
+        gap: 10px;
+        &-arrow,
+        &-pin {
+            border: 1px solid #059cdf !important;
+            border-radius: 4px !important;
+            padding: 0 !important;
+        }
+        &-pin,
+        &-arrow {
+            width: 24px;
+            height: 24px;
+            background-color: #fff !important;
+            svg {
+                width: 16px;
+                height: 16px;
+                fill: #059cdf;
+            }
+        }
+        &-pin.is-pinned {
+            background-color: #059cdf !important;
+            svg {
+                fill: white;
+            }
+        }
+    }
+}

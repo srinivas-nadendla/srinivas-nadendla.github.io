@@ -1,0 +1,226 @@
+.chat-widget-suggestion-cont {
+    visibility: visible;
+    position: relative;
+    margin-top: 10%;
+    border-radius: 36px 0% 36px 36px;
+    padding: 20px 10px 20px 0px;
+    margin-right: 0%;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+    min-height: 72vh;
+    background-color: #f9fbfc;
+    &.brena-mobile {
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        min-width: auto;
+        border-radius: 0;
+        padding: 0;
+        margin-top: 0 !important;
+        .chat-widget-suggestion-cont_body {
+            width: 100vw !important;
+            height: 84vh !important;
+        }
+        .chat-suggestion-header-img_wrapper {
+            padding: 10px 0;
+            display: flex;
+            box-shadow: 0 1px 4px 1px rgb(229, 229, 229);
+            margin: 0 0 5px 0;
+            .chat-suggestion-header-img {
+                margin-left: 6px;
+            }
+        }
+        .chat-suggestion-header_left-arrow {
+            align-items: center;
+            margin-right: 10px;
+            font-size: 32px;
+            font-weight: 400;
+            margin-left: 20px;
+            display: flex;
+            .header-back-btn {
+                width: 26px;
+                filter: invert(40%);
+                -webkit-filter: invert(40%);
+            }
+        }
+    }
+    .chat-suggestion-header-img {
+        margin-left: 20px;
+        max-width: 175px;
+    }
+    &_body {
+        display: inline-block;
+        height: 65vh;
+        overflow-y: auto;
+        word-break: break-word;
+        &.no-scroll {
+            overflow: hidden;
+        }
+    }
+    &_resizer {
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        width: 18px;
+        height: 18px;
+        cursor: e-resize;
+        .resizer-img-cls {
+            width: 16px;
+            -webkit-filter: invert(20%);
+        }
+    }
+    .help-section,
+    .finance-section {
+        overflow-x: auto;
+        padding: 0px 5px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #333;
+        line-height: 1.5;
+        a {
+            color: #059cdf;
+        }
+    }
+    .finance-section {
+        height: 100%;
+        &_body {
+            overflow-y: auto;
+            border-top: 1px solid #fff;
+            border-radius: 4px;
+            margin-top: 0px;
+        }
+        table {
+            border-collapse: collapse;
+            border: 1px solid rgb(229, 229, 229) !important;
+            width: 100%;
+            background-color: #fafafa;
+            tr {
+                height: 44px;
+                td {
+                    padding-left: 8px;
+                    border-bottom: 1px solid rgb(229, 229, 229);
+                    min-width: 86px;
+                    text-align: left !important;
+                    line-height: 1.2;
+                    h3 {
+                        margin: 10px 0px 9px 0px;
+                        color: #333;
+                    }
+                }
+            }
+        }
+        .budget-suggestions-section {
+            width: 100%;
+        }
+         ::-webkit-scrollbar-thumb,
+         ::-webkit-scrollbar-track {
+            border-radius: 0em;
+        }
+    }
+}
+
+// .common-widget-dlg-minimized .tags-section {
+//     display: none;
+// }
+.common-widget-dlg.small .chat-widget-suggestion-cont {
+    min-width: 390px;
+    width: 434px;
+    &.brena-tablet {
+        min-width: 300px;
+        width: 335px;
+    }
+    &_body {
+        width: 418px;
+        height: calc(100vh - 250px);
+        padding-right: 2px;
+        &.is-resized {
+            width: 100%;
+            height: calc(100vh - 250px);
+        }
+        .tags-section {
+            padding-left: 10px;
+            display: block;
+        }
+    }
+    &.brena-tablet .chat-widget-suggestion-cont_body {
+        width: 320px;
+    }
+}
+
+.common-widget-dlg.medium .chat-widget-suggestion-cont {
+    min-width: 790px;
+    width: 834px;
+    margin-top: 6%;
+    &.brena-tablet {
+        width: 335px;
+        min-width: 300px;
+    }
+    &_body {
+        width: 820px;
+        padding-left: 20px;
+        height: calc(100vh - 250px);
+        &.is-resized {
+            width: 100%;
+            height: calc(100vh - 250px);
+        }
+        &.is-resized+.suggestion-footer-cont {
+            width: 98%;
+        }
+    }
+    &.brena-tablet .chat-widget-suggestion-cont_body {
+        width: 320px;
+        height: 75vh;
+    }
+}
+.common-widget-dlg.large .chat-widget-suggestion-cont {
+    margin-top: 6%;
+    &.brena-desktop {
+        min-width: 790px;
+    }
+    &.brena-tablet {
+        min-width: 300px;
+    }
+    &_body {
+        width: calc(100vw - 415px);
+        padding-left: 20px;
+        height: calc(100vh - 250px);
+        &.is-resized {
+            width: 100%;
+            height: calc(100vh - 250px);
+        }
+        &.is-resized+.suggestion-footer-cont {
+            width: 98%;
+        }
+    }
+    &.brena-tablet .chat-widget-suggestion-cont_body {
+        width: calc(100vw - 415px);
+        height: 75vh;
+    }
+}
+
+.finance-section {
+    position: relative;
+}
+
+.chat-widget-suggestion-cont::-webkit-scrollbar-thumb {
+    background-color: red;
+    border: 4px solid transparent;
+    border-radius: 28px;
+    background-clip: padding-box;
+}
+.brena-report-fallback {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 28%;
+}
+.brena-report-fallback-msg {
+    margin-top: 20px;
+    font-size: 16px;
+    color: grey;
+}

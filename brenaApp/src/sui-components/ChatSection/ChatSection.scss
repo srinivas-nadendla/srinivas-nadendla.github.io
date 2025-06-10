@@ -1,0 +1,249 @@
+.chat-section {
+    margin-top: 20px;
+    display: grid;
+    &_item {
+        margin-bottom: 10px;
+        p {
+            margin: 0;
+        }
+        &.chat-history-thread {
+            cursor: pointer;
+        }
+        .dot-pulse {
+            position: relative;
+            left: -9999px;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background-color: grey;
+            color: grey;
+            box-shadow: 9999px 0 0 -5px;
+            animation: dot-pulse 1.5s infinite linear;
+            animation-delay: 0.25s;
+        }
+        .dot-pulse::before,
+        .dot-pulse::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background-color: grey;
+            color: grey;
+        }
+        .dot-pulse::before {
+            box-shadow: 9984px 0 0 -5px;
+            animation: dot-pulse-before 1.5s infinite linear;
+            animation-delay: 0s;
+        }
+        .dot-pulse::after {
+            box-shadow: 10014px 0 0 -5px;
+            animation: dot-pulse-after 1.5s infinite linear;
+            animation-delay: 0.5s;
+        }
+        @keyframes dot-pulse-before {
+            0% {
+                box-shadow: 9984px 0 0 -5px;
+            }
+            30% {
+                box-shadow: 9984px 0 0 2px;
+            }
+            60%,
+            100% {
+                box-shadow: 9984px 0 0 -5px;
+            }
+        }
+        @keyframes dot-pulse {
+            0% {
+                box-shadow: 9999px 0 0 -5px;
+            }
+            30% {
+                box-shadow: 9999px 0 0 2px;
+            }
+            60%,
+            100% {
+                box-shadow: 9999px 0 0 -5px;
+            }
+        }
+        @keyframes dot-pulse-after {
+            0% {
+                box-shadow: 10014px 0 0 -5px;
+            }
+            30% {
+                box-shadow: 10014px 0 0 2px;
+            }
+            60%,
+            100% {
+                box-shadow: 10014px 0 0 -5px;
+            }
+        }
+    }
+    &_inner-item-page-num,
+    &_inner-item-clickable-link {
+        font-weight: 600;
+        color: #059cdf;
+        cursor: pointer;
+    }
+    .is-selection {
+        background-color: #059cdf;
+        color: white;
+        font-size: 14px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        display: inline-block;
+        word-break: break-word;
+        cursor: pointer;
+        &.is-button {
+            background-color: white;
+            color: #059cdf;
+            border: 1px solid #059cdf;
+        }
+    }
+    .is-waiting {
+        min-width: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .is-reply {
+        background-color: #F6D1BA;
+        color: #333;
+        font-size: 14px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        float: right;
+        position: relative;
+        line-height: 1.4;
+        word-break: break-word;
+    }
+    &_item-wrapper {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .chat-inner-item {
+        user-select: text;
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+      }
+      
+    .chat-section-arrow-img {
+        float: right;
+        position: relative;
+        top: 18px;
+        left: 15px;
+    }
+    .prompt-btns-warpper {
+        padding: 0px 8px 10px 0;
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+    }
+    .prompt-btns {
+        font-size: 14px;
+        text-transform: none;
+        border-radius: 20px;
+        background-color: transparent !important;
+        padding: 4px 12px;
+        &.odd-btn {
+            border-color: #E95A15;
+            color: #E95A15;
+        }
+        &.even-btn {
+            border-color: gray;
+            color: gray;
+        }
+    }
+    .copy-icon-container {
+        display: inline;
+        position: relative;
+        svg {
+            width: 20px;
+            height: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            padding-top: 0px;
+            fill: #333;
+        }
+        &:focus,
+        &:hover {
+            .brena-copy-tooltip {
+                display: block;
+            }
+        }
+    }
+    .brena-chat-inline-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 110px;
+        border-radius: 20px;
+        background-color: #FDE0CE;
+        box-shadow: 0 3px 10px #ccc;
+        border: 1px solid #ed7532;
+        padding: 4px 15px;
+        margin-top: 8px;
+        position: sticky;
+        bottom: 6px;
+        z-index: 1;
+        &.brena-zindex {
+            z-index: 2;
+        }
+        &.brena-gantter_launchpoint {
+            width: 80px;
+            box-sizing: border-box;
+        }
+        .brena-chat-share-icon-container,
+        .copy-icon-container,
+        .brena-chat-volume-icon-container,
+        .brena-chat-smart-item-plus-container {
+            display: flex;
+            align-items: center;
+            .smartapp-add-tooltip {
+                .MuiPopper-root {
+                   /* z-index: 9999999;
+                    position: relative !important; */
+                }
+            }
+        }
+        .brena-chat-smart-item-plus-container {
+            padding-top: 4px;
+            .smartapp-add-img {
+                width: 18px;
+                height: 18px;
+                cursor: pointer;
+            }
+        }
+        svg {
+            width: 18px;
+            height: 18px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+.chat-section .is-reply:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: 18px solid #f6d1ba;
+    border-bottom: 14px solid rgba(0, 0, 0, 0);
+    right: 8px;
+    bottom: -10px;
+    border-bottom-right-radius: 2px;
+}
+.brena-mobile, .brena-tablet {
+    .chat-inner-item {
+        caret-color: transparent;
+    }
+}
+.iPhone, .iPad {
+    .chat-section_item {
+        p {
+            -webkit-user-select: all;
+        }
+    }
+}

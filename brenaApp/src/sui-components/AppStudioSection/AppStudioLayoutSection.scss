@@ -1,0 +1,131 @@
+.brena-app-studio-metadata-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+
+  &_count-title {
+    margin: 10px 0 10px 20px;
+    font-size: 16px;
+    color: grey;
+  }
+
+  .MuiTab-root {
+    &.Mui-selected {
+      color: gray;
+    }
+  }
+  .MuiTabs-indicator {
+    background-color: #ed7532;
+    height: 3px;
+  }
+
+  .collection-section {
+    padding: 8px;
+  }
+
+  .collection-title {
+    font-weight: 600;
+    padding-left: 10px;
+  }
+
+  .fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .field-item {
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    &_type {
+      padding: 4px 10px 4px 4px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: 1px solid lightgrey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top-width: 0;
+      border-right-width: 0;
+      color: gray;
+      text-transform: uppercase;
+      font-size: 12px;
+      border-bottom-left-radius: 5px;
+      }
+      &_type-img {
+        margin-right: 8px;
+      }
+  }
+
+  .field-label {
+    font-weight: 600;
+    color: #ed7532;
+  }
+
+  .field-desc {
+    color: #666;
+    padding-left: 10px;
+  }
+
+  .collection-section_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .collection-section_header-left {
+    display: flex;
+    align-items: center;
+  }
+  .brena-app-studio-role-item {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-bottom-width: 0;
+    &:last-child {
+      border-bottom-width: 1px;
+    }
+  }
+  .brena-app-studio-role-item_name {
+    color: dimgrey;
+    font-size: 16px;
+  }
+  .brena-app-studio-role-item_title {
+    font-size: 16px;
+    color: #ed7532;
+    font-weight: 600;
+  }
+
+}
+// .react-flow__attribution {
+//   display: none;;
+// }
+.react-flow__handle {
+  display: none !important;
+}
+.brena-app-studio-stage-item {
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   background: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px 10px;
+  &_color {
+    width: 16px;
+    height: 16px;
+  }
+}
+.react-flow__viewport {
+  display: contents !important;
+}
